@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello!", "Hi there!", "Hey!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name"],
+      "responses": ["I am your AI Assistant"]
+    },
+    {
+      "tag": "job",
+      "patterns": ["help me get job"],
+      "responses": ["Build projects and apply daily"]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["bye"],
+      "responses": ["Goodbye!"]
+    }
+  ]
+}
